@@ -25,8 +25,8 @@ The server uses multiple threads, spawning as many as effectively possible to ma
 request queue. The results are published at the result/<clientID> topic that all the other clients are subscribed to and waiting for their results.
 
 ## Client
-For the project to be tested and ran I implemented an Arduino client that periodically sends requests to the server.
-Two Linux clients that ran on Raspberry Pis, one for testing the offloading and one for testing simple local code requests.
+For the project to be tested and ran I implemented an Arduino client that periodically sends requests to the server.  
+Two Linux clients that ran on Raspberry Pis, one for testing the offloading and one for testing simple local code requests.  
 The above mentioned clients all have been made just for testing by giving the same file for offloading and the same input all the time but
 it can be changed to take a file given by the user to the offloaded and input given by the user.
 

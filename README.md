@@ -6,7 +6,7 @@ it supports broker generated clientIDs.
 To run with Mosquitto just install mosquitto and run it with the mosquitto.conf configuration file.  
 ## Server 
 
-For this project the server was ran on an NVIDIA Jetson Nano that boasts increased AI performance.  
+For this project the server ran on an NVIDIA Jetson Nano that boasts increased AI performance.  
 In this project's implementation the gateway acts as both the broker and a client that serves all the incoming requests.  
 The server is subscribed to the localCode/# and inputCode/# topics.The hastag stands for any subtopic under the localCode 
 topic and inputCode topic respectively.  

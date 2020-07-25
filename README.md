@@ -1,4 +1,4 @@
-# IoT-Project
+# IoT MQTT Offloading
 ## MQTT
 The MQTT messaging protocol has been used for this project.  
 I used Mosquitto as my MQTT broker, but any other broker is viable as long as
